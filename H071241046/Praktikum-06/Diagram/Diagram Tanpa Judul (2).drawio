@@ -1,0 +1,175 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.14">
+  <diagram name="Page-1" id="6133507b-19e7-1e82-6fc7-422aa6c4b21f">
+    <mxGraphModel dx="983" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="78961159f06e98e8-82" value="Mobil" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="290" y="760" width="310" height="710" as="geometry">
+            <mxRectangle x="665" y="435" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="78961159f06e98e8-89" value="-jumlahPintu: int&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-kapasitasMesin: double&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-jumlahKursi: int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-bahanBakar: String&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-82" vertex="1">
+          <mxGeometry y="26" width="310" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="78961159f06e98e8-90" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="78961159f06e98e8-82" vertex="1">
+          <mxGeometry y="150" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="78961159f06e98e8-94" value="+Mobil(merek: String, model: String)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-82" vertex="1">
+          <mxGeometry y="158" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="b94bc138ca980ef-4" value="+getJumlahPintu(): int&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+setJumlahPintu(jumlah: int): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+getKapasitasMesin() : : double&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+setKapasitasMesin(kapasitas: double) : : void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+getJumlahKursi(): int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+setJumlahKursi(jumlah: int) : : void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+getBahanBakar() : : String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+setBahabBakar(bahanBakar: String) : : void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ hitungPajak() : : double&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ getTipeKendaraan() : : String&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ mulai() : : boolean&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;+ berhenti() : : boolean&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ getKecepatan() : : double&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ setKecepatan(kecepatan: Double) : : void&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ periksaKondisi() : : boolean&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;+ lakukanServis() : : void&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ getWaktuServisBerikutnya() : : Date&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ hitungBiayaServis() : : double&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-82" vertex="1">
+          <mxGeometry y="184" width="310" height="526" as="geometry" />
+        </mxCell>
+        <mxCell id="b94bc138ca980ef-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Kendaraan&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# id: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;# merek: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# model: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;#tahunProduksi: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;#warna: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;#kecepatan: boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+Kendaraan(merek: String, model: String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;+ getId() : : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getMerek() : : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getModel() : : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getTahunProduksi() : : int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setTahunProduksi() : : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getWarna() : : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setWarna() : : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ hitungPajak() : : double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getTipeKendaraan() : : String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
+          <mxGeometry x="700" y="30" width="280" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IBergerak&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ mulai() : : boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;+ berhenti() : : boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getKecepatan() : : double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setKecepatan(kecepatan: Double) : : void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="1100" y="382" width="260" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IServiceable&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ periksaKondisi() : : boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;+ lakukanServis() : : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getWaktuServisBerikutnya() : : Date&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ hitungBiayaServis() : : double&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="1480" y="382" width="260" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-6" value="Motor" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="710" y="760" width="310" height="690" as="geometry">
+            <mxRectangle x="665" y="435" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-7" value="-jenisMotor: String&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-kapasitasTangki: double&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-tipeSuspensi: String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EZsr5L4J6TkUwwK5XaR9-6">
+          <mxGeometry y="26" width="310" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-8" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="EZsr5L4J6TkUwwK5XaR9-6">
+          <mxGeometry y="120" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-9" value="+Motor(merek: String, model: String)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EZsr5L4J6TkUwwK5XaR9-6">
+          <mxGeometry y="128" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-10" value="+getJenisMotor() : : String&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+setJenisMotor(jenis: String): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+getKapasitasTangki() : : double&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+setKapasitasTangki(kapasitas: double) : : void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+getTipeSuspensi(): String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+setTipeSuspensi(tipe: String) : : void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ hitungPajak() : : double&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ getTipeKendaraan() : : String&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ mulai() : : boolean&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;+ berhenti() : : boolean&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ getKecepatan() : : double&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ setKecepatan(kecepatan: Double) : : void&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ periksaKondisi() : : boolean&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;+ lakukanServis() : : void&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ getWaktuServisBerikutnya() : : Date&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ hitungBiayaServis() : : double&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EZsr5L4J6TkUwwK5XaR9-6">
+          <mxGeometry y="154" width="310" height="526" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-16" value="Sepeda" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="1130" y="760" width="310" height="690" as="geometry">
+            <mxRectangle x="665" y="435" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-17" value="-jenisSepeda: String&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-jumlahGeari: int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-ukuranRoda: int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EZsr5L4J6TkUwwK5XaR9-16">
+          <mxGeometry y="26" width="310" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-18" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="EZsr5L4J6TkUwwK5XaR9-16">
+          <mxGeometry y="120" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-19" value="+Sepeda(merek: String, model: String)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EZsr5L4J6TkUwwK5XaR9-16">
+          <mxGeometry y="128" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-20" value="+getJenisSepeda() : : String&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+setJenisSepeda(jenis: String): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+getJumlahGeari() : : int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+setJumlahGear(jumlah: int) : : void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+getUkuranRoda(): int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+setUkuranRoda(ukuran: int) : : void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ hitungPajak() : : double&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ getTipeKendaraan() : : String&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ mulai() : : boolean&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;+ berhenti() : : boolean&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ getKecepatan() : : double&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ setKecepatan(kecepatan: Double) : : void&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ periksaKondisi() : : boolean&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;+ lakukanServis() : : void&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ getWaktuServisBerikutnya() : : Date&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ hitungBiayaServis() : : double&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EZsr5L4J6TkUwwK5XaR9-16">
+          <mxGeometry y="154" width="310" height="526" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-21" value="PetePete" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="1580" y="760" width="450" height="730" as="geometry">
+            <mxRectangle x="665" y="435" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-22" value="-namaSupir: String&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-kapasitasPenumpang: int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-jumlahPenumpangSaatIni: int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-tarif: int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- sedangBeroperasi: boolean&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EZsr5L4J6TkUwwK5XaR9-21">
+          <mxGeometry y="26" width="450" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-23" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="EZsr5L4J6TkUwwK5XaR9-21">
+          <mxGeometry y="170" width="450" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-24" value="+PetePete(merek: String, model: String)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EZsr5L4J6TkUwwK5XaR9-21">
+          <mxGeometry y="178" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-25" value="+getNamaSupir(): String&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+setNamaSupir(namaSupir: String): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+getJumlahPenumpangSaatIni() : : int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+setJumlahPenumpangSaatIni(jumlahPenumpangSaatIni: int) : : void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+getTarif(): int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+setTarif(tarif: int) : : void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+isSedangBeroperasi() : : boolean&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+setSedangBeroperasi(sedangBeroperasi: boolean) : : void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+getKapasitasPenumpang() : : int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ hitungPajak() : : double&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ getTipeKendaraan() : : String&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ mulai() : : boolean&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;+ berhenti() : : boolean&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ getKecepatan() : : double&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;+ setKecepatan(kecepatan: Double) : : void&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EZsr5L4J6TkUwwK5XaR9-21">
+          <mxGeometry y="204" width="450" height="526" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-38" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.078;exitY=0.001;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="78961159f06e98e8-82" target="b94bc138ca980ef-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1020" y="450" as="sourcePoint" />
+            <mxPoint x="1180" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-39" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.161;exitY=-0.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="EZsr5L4J6TkUwwK5XaR9-21" target="b94bc138ca980ef-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="490" y="590" as="sourcePoint" />
+            <mxPoint x="650" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1220" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-40" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.086;exitY=-0.004;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.142;entryY=0.999;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EZsr5L4J6TkUwwK5XaR9-6" target="b94bc138ca980ef-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="710" y="710" as="sourcePoint" />
+            <mxPoint x="870" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-41" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="EZsr5L4J6TkUwwK5XaR9-16" target="b94bc138ca980ef-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="380" y="700" as="sourcePoint" />
+            <mxPoint x="540" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="940" y="670" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-42" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=-0.009;entryY=0.654;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="78961159f06e98e8-82" target="EZsr5L4J6TkUwwK5XaR9-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1000" y="760" as="sourcePoint" />
+            <mxPoint x="1160" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-43" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0.796;exitY=-0.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="78961159f06e98e8-82" target="EZsr5L4J6TkUwwK5XaR9-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="730" y="680" as="sourcePoint" />
+            <mxPoint x="890" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="860" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-44" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.169;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.129;exitY=-0.007;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="EZsr5L4J6TkUwwK5XaR9-6" target="EZsr5L4J6TkUwwK5XaR9-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="810" y="720" as="sourcePoint" />
+            <mxPoint x="970" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-45" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.414;exitY=-0.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="EZsr5L4J6TkUwwK5XaR9-21" target="EZsr5L4J6TkUwwK5XaR9-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1530" y="680" as="sourcePoint" />
+            <mxPoint x="680" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1540" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-46" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.064;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.318;exitY=0.001;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="EZsr5L4J6TkUwwK5XaR9-6" target="EZsr5L4J6TkUwwK5XaR9-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="790" y="760" as="sourcePoint" />
+            <mxPoint x="950" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1040" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-47" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.577;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.352;exitY=-0.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="EZsr5L4J6TkUwwK5XaR9-16" target="EZsr5L4J6TkUwwK5XaR9-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1070" y="760" as="sourcePoint" />
+            <mxPoint x="1230" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EZsr5L4J6TkUwwK5XaR9-48" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.297;entryY=1.021;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.62;exitY=-0.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="EZsr5L4J6TkUwwK5XaR9-16" target="EZsr5L4J6TkUwwK5XaR9-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1070" y="760" as="sourcePoint" />
+            <mxPoint x="1230" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
