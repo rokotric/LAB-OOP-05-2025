@@ -12,14 +12,13 @@ public class Main {
         b1.hitungPajak();
         
         
-        System.out.println(b1.getJumlahPenumpang());
-        System.out.println(b1.mulai());
-        System.out.println(b1.berhenti());
-        System.out.println(b1.getKecepatan());
-        System.out.println(b1.getTahunProduksi());
-        System.out.println(b1.hitungPajak());
-        System.out.println(b1.getTipeKendaraan());
-        
+        System.out.println("Jumlah Penumpang     : " + b1.getJumlahPenumpang());
+        System.out.println("Status Saat Mulai    : " + b1.mulai());
+        System.out.println("Status Saat Berhenti : " + b1.berhenti());
+        System.out.println("Kecepatan Bajaj      : " + b1.getKecepatan() + " km/jam");
+        System.out.println("Tahun Produksi       : " + b1.getTahunProduksi());
+        System.out.println("Pajak Kendaraan      : Rp" + b1.hitungPajak());
+        System.out.println("Tipe Kendaraan       : " + b1.getTipeKendaraan());
 
 
 
@@ -29,5 +28,3 @@ public class Main {
 
     
 }
-
-
