@@ -1,0 +1,36 @@
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.1.0' // Tambahkan plugin JavaFX
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation libs.junit
+
+    // Hapus atau ganti dependensi Guava jika tidak diperlukan untuk proyek JavaFX Anda
+    // implementation libs.guava
+
+    // Tambahkan dependensi JavaFX yang dibutuhkan
+    implementation 'org.openjfx:javafx-controls:21' // Ganti 21 dengan versi JavaFX yang Anda inginkan
+    implementation 'org.openjfx:javafx-fxml:21'     // Ganti 21 dengan versi JavaFX yang Anda inginkan
+    // Tambahkan modul JavaFX lain jika perlu (misalnya, javafx-graphics, javafx-media, dll.)
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+application {
+    mainClass = 'org.example.MyMomentApp' // Pastikan ini adalah kelas utama aplikasi JavaFX Anda
+}
+
+// Konfigurasi plugin JavaFX
+javafx {
+    version = "21" // Sesuaikan dengan versi JavaFX yang Anda gunakan
+    modules = [ 'javafx.controls', 'javafx.fxml' ] // Sebutkan modul JavaFX yang digunakan
+}
